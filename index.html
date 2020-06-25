@@ -1,0 +1,55 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Debloat (without Root).md</title><style></style></head><body id="preview">
+<h1 class="code-line" data-line-start=0 data-line-end=1><a id="Debloat__Uninstall_System_Apps_on_Android_without_Root_0"></a>Debloat / Uninstall System Apps on Android (without Root)</h1>
+<p class="has-line-data" data-line-start="2" data-line-end="3">Debloat is a simple <em>bash script</em> that helps you <strong>uninstall system apps without rooting</strong> your phone from your pc ! It is easy to use as well as customise.</p>
+<ul>
+<li class="has-line-data" data-line-start="4" data-line-end="5">Compatible with Windows/Linux/MacOS</li>
+<li class="has-line-data" data-line-start="5" data-line-end="6">Does not void your warranty</li>
+<li class="has-line-data" data-line-start="6" data-line-end="7">You can reinstall the apps in future without any issues</li>
+<li class="has-line-data" data-line-start="7" data-line-end="9">Works for all <strong>Android</strong> phones</li>
+</ul>
+<h2 class="code-line" data-line-start=9 data-line-end=10><a id="Setup_and_Requirements_9"></a>Setup and Requirements</h2>
+<ul>
+<li class="has-line-data" data-line-start="11" data-line-end="12">ADB (<a href="https://www.google.com">Download &amp; Setup Instructions</a> | For <strong>Windows &amp; Mac</strong> only)</li>
+<li class="has-line-data" data-line-start="12" data-line-end="13">Git Bash (<a href="https://gitforwindows.org/">Download</a> | Only for <strong>Windows</strong> users )</li>
+<li class="has-line-data" data-line-start="13" data-line-end="14"><em>Windows users</em> <strong>add adb to your PATH variable</strong></li>
+<li class="has-line-data" data-line-start="14" data-line-end="16"><strong>Enable Developer Options</strong> on your android device. (<em>Checkout the adb link for the same</em>)</li>
+</ul>
+<h2 class="code-line" data-line-start=16 data-line-end=17><a id="Running_the_script_16"></a>Running the script</h2>
+<ul>
+<li class="has-line-data" data-line-start="19" data-line-end="20">If you are on Windows, use <code>Git Bash</code> .</li>
+<li class="has-line-data" data-line-start="20" data-line-end="21">If you are on Linux / MacOS, use <code>terminal</code>.</li>
+<li class="has-line-data" data-line-start="21" data-line-end="22"><strong>run the command</strong> <code>./&lt;relative-path&gt;/debloat.sh</code> in your terminal.</li>
+<li class="has-line-data" data-line-start="22" data-line-end="24">and the rest will be visible to you on your terminal :)</li>
+</ul>
+<h2 class="code-line" data-line-start=24 data-line-end=25><a id="Adding__Removing_apps_24"></a>Adding / Removing apps</h2>
+<blockquote>
+<p class="has-line-data" data-line-start="26" data-line-end="27"><strong>Note:</strong> If the app isn’t present on your device, it won’t affect the execution of script. It will just show an error <strong><em>app not found on 0</em></strong></p>
+</blockquote>
+<p class="has-line-data" data-line-start="28" data-line-end="30">The part of the script shown below has complete names of all the apps in an array, you can add/remove apps from here.<br>
+The list below contains some system services/apps which are not used or generate ads.</p>
+<pre><code class="has-line-data" data-line-start="31" data-line-end="56">
+# put all the complete app names in an array.
+
+declare -a arr=(&quot;com.mipay.wallet.in&quot;
+                &quot;com.xiaomi.payment&quot;
+                &quot;cn.wps.xiaomi.abroad.lite&quot;
+                &quot;com.xiaomi.midrop&quot;
+                &quot;com.miui.yellow.page&quot;
+                &quot;com.miui.android.fashiongallery&quot;
+                &quot;com.android.browser&quot;
+                &quot;com.miui.glgm&quot;
+                &quot;com.miui.msa.global&quot;
+                &quot;com.xiaomi.mipicks&quot;
+                &quot;com.google.android.videos&quot;
+                &quot;com.facebook.services&quot;
+                &quot;com.facebook.system&quot;
+                &quot;com.facebook.appmanager&quot;
+                &quot;com.android.email&quot;
+                &quot;com.miui.videoplayer&quot;
+                &quot;com.miui.player&quot;
+                &quot;com.miui.miservice&quot;
+                &quot;com.miui.cloudservice&quot;
+                &quot;com.miui.cloudbackup&quot;
+                )
+</code></pre>
+</body></html>
