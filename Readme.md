@@ -13,6 +13,7 @@ Debloat is a simple _bash script_ that helps you **uninstall system apps without
   - Git Bash ([Download](https://gitforwindows.org/) | Only for **Windows** users )
   - _Windows users_ **add adb to your PATH variable**
   - **Enable Developer Options** on your android device. (_Checkout the adb link for the same_)
+  - Download this repository / copy the script
 
 ## Running the script
 
