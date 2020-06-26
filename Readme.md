@@ -68,21 +68,26 @@ declare -a arr=("com.mipay.wallet.in"
 ## FAQs
 
  - **Why do I need Git to run this script ?**
+
    _This is a Bash script and Windows doesn't support running bash scripts directly. Hence to execute it you need a terminal that supports bash scripts and `Git Bash` is such a terminal. Another option is setting up the `WSL` on your Windows machine but that is too much work for uninstalling apps !_
 
  - **What is relative path ?**
+
    _Relative path is path of the target/Destination file from the current directory.
    For example, if your file _debloat.sh_ is in the **same directory** as your Bash shell, your relative path is `./debloat.sh` where ./ means current directory.  
 Have a look at [this](https://desktop.arcgis.com/en/arcmap/10.3/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm#GUID-A2D28AFE-2546-489A-8691-A0B2816AA337) article for more details._
 
   - **How do I get complete name of an app ?**
+
   _You can checkout the `App Info` section of the application in your device and if you can't find the app package name there, you can install a third party app like [this](https://play.google.com/store/apps/details?id=com.csdroid.pkg&hl=en_IN)_
 ![Package App Viewer](https://lh3.googleusercontent.com/A1EeCw9BFTMDIfpKC4sHGIkaFOGixT9IBfLy4W70ruZag0sayqM6nzi791hq4ZThYYU=w1366-h667-rw "Package App Viewer")
 
   - **My Apps are not uninstalled, what is the reason ? What should I do ?**
+
   _Reconnect your device and re-run the script ! Sometimes, only the updates of the System apps are uninstaled and the app is restored to its factory version; so to uninstall this version , just rerun the script._
 
   - **How is this different from `Disable` option on my phone ?**
+  
   _Disabling apps does not uninstall them. The apps still occupy space in your internal storage ! This script, uninstalls and completely removes the apps from your phone_
 
   
