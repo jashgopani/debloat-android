@@ -14,7 +14,7 @@ The [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.
 
 ## Setup and Requirements
 
-> **Note:** If you have Android Studio / Android SDK setup on your PC then you already have ADB installed. Just make sure that the adb is added to the _PATH variables_.
+> **:information_source:Note:** If you have Android Studio / Android SDK setup on your PC then you already have ADB installed. Just make sure that the adb is added to the _PATH variables_.
 
   - ADB ([Download & Setup Instructions](https://www.google.com) | For **Windows & Mac** only)
   - Git Bash ([Download](https://gitforwindows.org/) | Only for **Windows** users )
@@ -32,7 +32,9 @@ The [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.
 
 ## Adding / Removing apps
 
-> **Note:** If the app isn't present on your device, it won't affect the execution of script. It will just show an error **_app not found on 0_**
+> **:information_source:Note:** If the app isn't present on your device, it won't affect the execution of script. It will just show an error **_app not found on 0_**
+
+> **:warning:Warning:** Do not Uninstall the **Find my device** app on your MIUI phones, else your phone will go in a boot loop on restart and you'll have to erase all your data to use your phone !
 
 The part of the script shown below has complete names of all the apps in an array, you can add/remove apps from here.  
 The list below contains some system services/apps which are not used or generate ads.
@@ -42,26 +44,26 @@ The list below contains some system services/apps which are not used or generate
 # put all the complete app names in an array.
 
 declare -a arr=("com.mipay.wallet.in"
-				"com.xiaomi.payment"
-				"cn.wps.xiaomi.abroad.lite"
-				"com.xiaomi.midrop"
-				"com.miui.yellow.page"
-				"com.miui.android.fashiongallery"
-				"com.android.browser"
-				"com.miui.glgm"
-				"com.miui.msa.global"
-				"com.xiaomi.mipicks"
-				"com.google.android.videos"
-				"com.facebook.services"
-				"com.facebook.system"
-				"com.facebook.appmanager"
-				"com.android.email"
-				"com.miui.videoplayer"
-				"com.miui.player"
-				"com.miui.miservice"
-				"com.miui.cloudservice"
-				"com.miui.cloudbackup"
-				)
+		"com.xiaomi.payment"
+		"cn.wps.xiaomi.abroad.lite"
+		"com.xiaomi.midrop"
+		"com.miui.yellow.page"
+		"com.miui.android.fashiongallery"
+		"com.android.browser"
+		"com.miui.glgm"
+		"com.miui.msa.global"
+		"com.xiaomi.mipicks"
+		"com.google.android.videos"
+		"com.facebook.services"
+		"com.facebook.system"
+		"com.facebook.appmanager"
+		"com.android.email"
+		"com.miui.videoplayer"
+		"com.miui.player"
+		"com.miui.miservice"
+		"com.miui.cloudservice"
+		"com.miui.cloudbackup"
+		)
 
 ```
 
@@ -79,17 +81,22 @@ Have a look at [this](https://desktop.arcgis.com/en/arcmap/10.3/tools/supplement
 
   - **How do I get complete name of an app ?**
 
-  _You can checkout the `App Info` section of the application in your device and if you can't find the app package name there, you can install a third party app like [this](https://play.google.com/store/apps/details?id=com.csdroid.pkg&hl=en_IN)_
+    _You can checkout the `App Info` section of the application in your device and if you can't find the app package name there, you can install a third party app like [this](https://play.google.com/store/apps/details?id=com.csdroid.pkg&hl=en_IN)_  
+  
 ![Package App Viewer](https://lh3.googleusercontent.com/A1EeCw9BFTMDIfpKC4sHGIkaFOGixT9IBfLy4W70ruZag0sayqM6nzi791hq4ZThYYU=w1366-h667-rw "Package App Viewer")
 
   - **My Apps are not uninstalled, what is the reason ? What should I do ?**
 
-  _Reconnect your device and re-run the script ! Sometimes, only the updates of the System apps are uninstaled and the app is restored to its factory version; so to uninstall this version , just rerun the script._
+      _Reconnect your device and re-run the script ! Sometimes, only the updates of the System apps are uninstaled and the app is restored to its factory version; so to uninstall this version , just rerun the script._
 
   - **How is this different from `Disable` option on my phone ?**
   
-  _Disabling apps does not uninstall them. The apps still occupy space in your internal storage ! This script, uninstalls and completely removes the apps from your phone_
+      _Disabling apps does not uninstall them. The apps still occupy space in your internal storage ! This script, uninstalls and completely removes the apps from your phone_
+     
 
+  ---
+  
+### **:warning:Disclaimer:** Altough this script works perfectly, the Developer is **NOT RESPONSIBLE** for any damage or misbehaviour on your device.
   
    
 
