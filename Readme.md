@@ -24,6 +24,7 @@ The [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.
 
 ## Running the script
 
+> **:information_source:Note:** Adding `./` is important on Windows machines else the script won't run
 
  - If you are on Windows, use `Git Bash` .
  - If you are on Linux / MacOS, use ```terminal```.
