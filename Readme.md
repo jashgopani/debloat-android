@@ -26,10 +26,12 @@ The [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.
 
 > **:information_source:Note:** Adding `./` is important on Windows machines else the script won't run
 
- - If you are on Windows, use `Git Bash` .
- - If you are on Linux / MacOS, use ```terminal```.
- - **run the command**   ``` ./<relative-path>/debloat.sh``` in your terminal.
- - and the rest will be visible to you on your terminal :)
+ 1. **Connect** your Android phone to your PC via USB🔌.
+ 2. Launch terminal on your machine💻
+     - If you are on Windows, use `Git Bash` .
+     - If you are on Linux / MacOS, use ```terminal```.
+ 3. **Run the following command**   ``` ./<relative-path>/debloat.sh``` in your terminal. (_`./debloat.sh` in case of current directory_)
+ 4.  Now follow the instructions on your terminal :)
 
 ## Adding / Removing apps
 
