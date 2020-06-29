@@ -7,6 +7,7 @@ Debloat is a simple _bash script_ that helps you **uninstall system apps without
   - You can reinstall the apps in future without any issues
   - Works for all **Android** phones
   - Can be used to **uninstall third-party / non-system** apps also.
+  - **Uninstall CHINESE APPS**
   
 ## Screenshots
 
