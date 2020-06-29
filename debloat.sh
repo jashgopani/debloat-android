@@ -129,6 +129,17 @@ uninstall_user_choice(){
     tag_msg "Info" "If apps are not uninstalled after reboot, try uninstalling them again :)"
     press_any_key
 }
+remove_chinese(){
+    title "uninstall App of your choice"
+    declare -a rc
+    mapfile -t rc < chineseapplist.txt
+    for i in "${rc[@]}"
+    do
+    echo "Uninstalling $i"
+    uninstallApp $i
+    done
+    press_any_key
+}
 
 reboot_device(){
     title "Reboot device"
@@ -142,6 +153,7 @@ menu(){
     app_header
     printf "\nChoose an option"
     # printf "\n------------------------------------------"
+    printf "\n0. Remove Chinese Apps"
     printf "\n1. View Default Apps List"
     printf "\n2. Complete Uninstall Default Apps List"
     printf "\n3. Selective Uninstall Default Apps List"
@@ -158,6 +170,11 @@ menu(){
 ## handle user choice from menu
 menu_choice_handler(){
 case $1 in
+        [0]* )        
+            remove_chinese
+            menu
+            break
+            ;;
         [1])
             print_default_apps
             menu
@@ -199,6 +216,7 @@ case $1 in
 			;;
     esac
 }
+
 
 # Wait for user input to proceed
 press_any_key(){
