@@ -1,4 +1,4 @@
-# Debloat / Uninstall System Apps on Android (without Root)
+# Debloat - Uninstall System Apps on Android (without Root)
 
 Debloat is a simple _bash script_ that helps you **uninstall system apps without rooting** your phone from your pc ! It is easy to use as well as customise. 
 
