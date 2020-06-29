@@ -104,6 +104,7 @@ selective_uninstall_default_apps(){
         [Yy]* )
             printf "Uninstalling $i\n"
             uninstallApp $i
+            echo ""
             ;;
         [Qq]* )
             printf "Stopping this process..."
@@ -111,6 +112,7 @@ selective_uninstall_default_apps(){
             break;;
         * ) 
             printf "Skipped $i\n"
+            echo ""
             continue;;
         esac
     done
@@ -203,9 +205,9 @@ case $1 in
 # Wait for user input to proceed
 press_any_key(){
     echo ""
-    tag_msg "Info" "Restarting / Rebooting ensures clean uninstallation of apps !"
+    tag_msg "Info" "Restarting / Rebooting ensures clean uninstallation of apps !\n"
     read -s -p "Press any key to continue..." key
-    echo ""
+    printf "\n\n"
     unset $key
 }
 
