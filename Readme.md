@@ -7,6 +7,14 @@ Debloat is a simple _bash script_ that helps you **uninstall system apps without
   - You can reinstall the apps in future without any issues
   - Works for all **Android** phones
   - Can be used to **uninstall third-party / non-system** apps also.
+  
+## Screenshots
+
+![Run command](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat1.PNG?raw=true)
+![Welcome Screen](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat2.PNG?raw=true)
+![List of Apps](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat3.PNG?raw=true)
+![Uninstalling](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat4.PNG?raw=true)
+![Debloat Complete](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat5.PNG?raw=true)
 
 ## How does it work
 
