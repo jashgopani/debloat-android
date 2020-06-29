@@ -12,6 +12,7 @@ Debloat is a simple _bash script_ that helps you **uninstall system apps without
 
 ![Start command](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat1.PNG?raw=true)
 ![Welcome Screen](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat2.PNG?raw=true)
+![Option 0](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat2a.PNG?raw=true)
 ![Option 1](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat3.PNG?raw=true)
 ![Option 2a](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat4a.PNG?raw=true)
 ![Option 2b](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat4b.PNG?raw=true)
