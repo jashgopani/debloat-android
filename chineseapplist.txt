@@ -98,6 +98,7 @@
   "com.qcloud.cos.client"
   "com.qq.qcloud"
   "com.tencent.portfolio"
+  "com.estrongs.android.pop"
   "com.tencent.mobileqq"
   "com.tencent.ttpic"
   "com.tencent.qqmusic"
