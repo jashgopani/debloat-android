@@ -10,11 +10,18 @@ Debloat is a simple _bash script_ that helps you **uninstall system apps without
   
 ## Screenshots
 
-![Run command](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat1.PNG?raw=true)
+![Start command](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat1.PNG?raw=true)
 ![Welcome Screen](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat2.PNG?raw=true)
-![List of Apps](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat3.PNG?raw=true)
-![Uninstalling](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat4.PNG?raw=true)
-![Debloat Complete](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat5.PNG?raw=true)
+![Option 1](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat3.PNG?raw=true)
+![Option 2a](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat4a.PNG?raw=true)
+![Option 2b](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat4b.PNG?raw=true)
+![Option 3a](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat5a.PNG?raw=true)
+![Option 3b](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat5b.PNG?raw=true)
+![Option 3c](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat5c.PNG?raw=true)
+![Option 4](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat6.PNG?raw=true)
+![Option 6](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat7.PNG?raw=true)
+![Quit](https://github.com/jashgopani/Debloat/blob/master/screenshots/debloat8.PNG?raw=true)
+
 
 ## How does it work
 
