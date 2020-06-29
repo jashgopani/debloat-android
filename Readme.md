@@ -86,6 +86,10 @@ declare -a arr=("com.mipay.wallet.in"
 
 ## FAQs
 
+ - **What is the meaning of Debloat ?**
+
+   _Since this scripts aims at **Removing _Bloatwares_** i.e useless and junk applications, it is named as **De-Bloat**. It means removing bloatware from your phone and keep it clean !_
+   
  - **Why do I need Git to run this script ?**
 
    _This is a Bash script and Windows doesn't support running bash scripts directly. Hence to execute it you need a terminal that supports bash scripts and `Git Bash` is such a terminal. Another option is setting up the `WSL` on your Windows machine but that is too much work for uninstalling apps !_
