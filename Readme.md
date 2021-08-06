@@ -30,7 +30,7 @@ The [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.
 
 ## Setup and Requirements
 
-> **:information_source:Note:** If you have Android Studio / Android SDK setup on your PC then you already have ADB installed. Just make sure that the adb is added to the _PATH variables_.
+> **:information_source: Note:** If you have Android Studio / Android SDK setup on your PC then you already have ADB installed. Just make sure that the adb is added to the _PATH variables_.
 
   - ADB ([Download & Setup Instructions](https://www.xda-developers.com/install-adb-windows-macos-linux/) | For **Windows & Mac** only)
   - Git Bash ([Download](https://gitforwindows.org/) | Only for **Windows** users )
@@ -40,7 +40,7 @@ The [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.
 
 ## Running the script
 
-> **:information_source:Note:** Adding `./` is important on Windows machines else the script won't run
+> **:information_source: Note:** Adding `./` is important on Windows machines else the script won't run
 
  1. **Connect** your Android phone to your PC via USB🔌.
  2. Launch terminal on your machine💻
@@ -51,9 +51,9 @@ The [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.
 
 ## Adding / Removing apps
 
-> **:information_source:Note:** If the app isn't present on your device, it won't affect the execution of script. It will just show an error **_app not found on 0_**
+> **:information_source: Note:** If the app isn't present on your device, it won't affect the execution of script. It will just show an error **_app not found on 0_**
 
-> **:warning:Warning:** Do not Uninstall the **Find my device** app on your MIUI phones, else your phone will go in a boot loop on restart and you'll have to erase all your data to use your phone !
+> **:warning:Warning: ** Do not Uninstall the **Find my device** app on your MIUI phones, else your phone will go in a boot loop on restart and you'll have to erase all your data to use your phone !
 
 The part of the script shown below has complete names of all the apps in an array, you can add/remove apps from here.  
 The list below contains some system services/apps which are not used or generate ads.
