@@ -32,7 +32,7 @@ The [Bash](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.
 
 > **:information_source:Note:** If you have Android Studio / Android SDK setup on your PC then you already have ADB installed. Just make sure that the adb is added to the _PATH variables_.
 
-  - ADB ([Download & Setup Instructions](https://www.google.com) | For **Windows & Mac** only)
+  - ADB ([Download & Setup Instructions](https://www.xda-developers.com/install-adb-windows-macos-linux/) | For **Windows & Mac** only)
   - Git Bash ([Download](https://gitforwindows.org/) | Only for **Windows** users )
   - _Windows users_ **add adb to your PATH variable**
   - **Enable Developer Options** on your android device. (_Checkout the adb link for the same_)
